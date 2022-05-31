@@ -5,7 +5,7 @@
     "S3Bucket": {
       "Type": "AWS::S3::Bucket",
       "Properties": {
-        "BucketName": "DemoBucketJulius",
+        "BucketName": "demobucket-manual",
         "AccessControl": "PublicRead"
       },
       "DeletionPolicy": "Retain"
